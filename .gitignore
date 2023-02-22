@@ -1,0 +1,4 @@
+# Alguns arquivos que eu quero que o git ignore
+.terraform
+.terraform.lock.hcl
+*tfstate*
