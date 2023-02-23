@@ -18,11 +18,15 @@ Um bucket público que hospeda a api web do site [VIACEP](https://viacep.com.br)
 
 ## Como usar este projeto
 
-Para executar o código do terraform, execute o comando:
+Para executar o código do terraform, execute:
 
 `terraform apply`
 
 Para acessar a API web, vá para a console da AWS, na página do serviço S3, entre no bucket criado, marque o objeto criado, e clique em abrir.
+
+Para destruir a infraestrutura criada, execute:
+
+`terraform destroy`
 
 ## License
 
